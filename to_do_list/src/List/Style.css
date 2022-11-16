@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(233, 230, 230);
+}
+h1{
+    color: rgb(228, 36, 36);
+    padding: 20px;
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+.button{
+    width: 10%;
+}
+.bt{
+    padding: 4px;
+    background-color: rgb(238, 240, 240);
+    border-radius: 5px;
+    margin-left: 20px;
+    float: right;
+    border: 2px solid #fff;
+    margin-top: 5px;
+    
+}
+.bt:hover{
+    background-color: rgb(110, 228, 218);
+    color: #fff;
+    border:2px solid #fff;
+    transition:all 0.5s;
+   
+   
+}
+.inpt_div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+    width: 42%;
+}
+input{
+    background-color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+   
+
+}
+.btt{
+    padding: 4px;
+    background-color: rgb(238, 240, 240);
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+.task-name{
+    cursor:pointer;
+}
+.completed-task{
+    text-decoration: line-through;
+}
